@@ -1,0 +1,190 @@
+{
+"recipies":[{
+"id":"101",
+"name":"Bajadera",
+"description":"Ovu ukusnu čokoladnu čaroliju zavolećete još više kada naučite da je spremate za samo 20 minuta!",
+"category":"kolaci",
+"subCategory":"sitni kolači",
+"instructions":"Ušpinujte šećer i kuvajte 3min, sklonite s vatre i dodajte maslac, mešajte dok se ne otopi. Kada se maslac potpuno otopi dodajte orahe i keks a onda mešajte dok ne dobijete gušću ujednačenu masu. Dobijenu masu podelite na dva jednaka dela. Otopite 80g čokolade na pari i umešajte je u prvi deo mase. Na poslužavnik stavite masni papir za pečenje i prebacite prvi deo mase (sa čokoladom) i rukama oblikujte kvadar, pa gornji deo i rubove poravnajte nožem. Na njega na isti način stavite drugu masu i učinite isto. Ostatak čokolade otopite na pari, u nju dodajte malo ulja i prelijte bajaderu. Bajaderu ostavite u frižideru da se stegne, a sutradan je iseckajte na kockice i poslužite.",
+"image":"../images/bajadera.jpg",
+"ingredient":[
+    {"quantity":"400","unit":"g","item":"šećera"},
+    {"quantity":"10","unit":"kašika","item":"vode"},
+    {"quantity":"150","unit":"g","item":"mlevenih oraha"},
+    {"quantity":"150","unit":"g","item":"mlevenog keksa"},
+    {"quantity":"125","unit":"g","item":"margarina"},
+    {"quantity":"160","unit":"g","item":"čokolade"}
+    
+]
+},
+{
+    "id":"102",
+    "name":"Bonžita",
+    "description":"Jedan od najukusnijih posnih kolača koga deca obožavaju!",
+    "category":"kolaci",
+    "subCategory":"sitni kolači",
+    "instructions":"Na blagoj vatri otopiti margarin i med, dodati čokoladu i dobro umešati. Skloniti sa vatre i dodati orahe i kornfleks. Na poslužavnik staviti papirne korpice i kašičicom sipati smesu.",
+    "image":"../images/bonzita.jpg",
+    "ingredient":[
+        {"quantity":"200","unit":"g","item":"šećera"},
+        {"quantity":"8","unit":"kašika","item":"meda"},
+        {"quantity":"150","unit":"g","item":"seckanih oraha"},
+        {"quantity":"300","unit":"g","item":"kornfleksa"},
+        {"quantity":"250","unit":"g","item":"margarina"},
+        {"quantity":"200","unit":"g","item":"čokolade"}
+    ]
+  },
+    {
+        "id":"103",
+        "name":"Starinske galete",
+        "description":"Gotove su za samo nekoliko minuta, preukusan starinski kolač.",
+        "category":"kolaci",
+        "subCategory":"suvi kolači",
+        "instructions":"Istopiti margarin, dodati šećer, ulje i mleko. Neprekidno mutiti i dodavati postepeno po jaje. Na kraju umešati brašno.",
+        "image":"../images/galete.jpg",
+        "ingredient":[
+            {"quantity":"500","unit":"g","item":"šećera"},
+            {"quantity":"1000","unit":"g","item":"brašna"},
+            {"quantity":"6","unit":"kom","item":"jaja"},
+            {"quantity":"350","unit":"g","item":"mleka"},
+            {"quantity":"250","unit":"g","item":"margarina"},
+            {"quantity":"150","unit":"g","item":"ulja"},
+            {"quantity":"1","unit":"kesica","item":"praška za pecivo"},
+            {"quantity":"1","unit":"kesica","item":"vanile"}
+        ]
+       },
+        {
+            "id":"104",
+            "name":"Slane galete",
+            "description":"Preukusna grickalica kad pocnete da ih jedete, ne mozete da se zaustavite!",
+            "category":"slanisi",
+            "subCategory":"testo",
+            "instructions":"Dobro umešati sve sastojke. Sipati po kutlaču mase u aparat i peći.",
+            "image":"../images/slaneGalete.jpg",
+            "ingredient":[
+                {"quantity":"500","unit":"g","item":"brašna"},
+                {"quantity":"100","unit":"g","item":"suncokreta"},
+                {"quantity":"100","unit":"g","item":"susama"},
+                {"quantity":"50","unit":"g","item":"lanenog semena"},
+                {"quantity":"50","unit":"g","item":"golice"},
+                {"quantity":"150","unit":"ml","item":"piva"},
+                {"quantity":"200","unit":"ml","item":"ulja"},
+                {"quantity":"1.5","unit":"kašičica","item":"soli"},
+                {"quantity":"1","unit":"kesica","item":"praška za pecivo"}
+                
+            ]
+          },
+            {
+                "id":"105",
+                "name":"Ruska salata",
+                "description":"Neprevaziđena, bez ove salate ne može da prođe ni jedno slavlje!",
+                "category":"slanisi",
+                "subCategory":"salate",
+                "instructions":"Sve iseckati na kockice, posoliti po potrebi i umešati majonez.",
+                "image":"../images/ruskaSalata.jpg",
+                "ingredient":[
+                    {"quantity":"500","unit":"g","item":"belog mesa"},
+                    {"quantity":"500","unit":"g","item":"šunke"},
+                    {"quantity":"6","unit":"kom","item":"šargarepe"},
+                    {"quantity":"3","unit":"kom","item":"krompira"},
+                    {"quantity":"3","unit":"kom","item":"kuvanih jaja"},
+                    {"quantity":"400","unit":"g","item":"majoneza"},
+                    {"quantity":"500","unit":"g","item":"krastavčića"}
+                    
+                ]
+               },
+                {
+                    "id":"106",
+                    "name":"Bela salata",
+                    "description":"Divna salata, brzo se pravi, nezaobilazna na slavljima!",
+                    "category":"slanisi",
+                    "subCategory":"salate",
+                    "instructions":"Sve iseckati na kockice osim jaja koja se seku na kolutove. Ređati jaja-krem-sir-krem-šunka-krem-krastavčići-krem-kačkavalj-krem.",
+                    "image":"../images/belaSalata.jpg",
+                    "ingredient":[
+                        {"quantity":"200","unit":"g","item":"starog sira"},
+                        {"quantity":"200","unit":"g","item":"šunke"},
+                        {"quantity":"200","unit":"g","item":"rendanog kačkavalja"},
+                        {"quantity":"2","unit":"čaše","item":"pavlake"},
+                        {"quantity":"5","unit":"kom","item":"kuvanih jaja"},
+                        {"quantity":"300","unit":"g","item":"majoneza"},
+                        {"quantity":"200","unit":"g","item":"krastavčića"}
+                        
+                    ]
+                   },
+                    {
+                        "id":"107",
+                        "name":"Salata sa pečurkama",
+                        "description":"Za ljubitelje pečuraka jedna sjajna salata.",
+                        "category":"slanisi",
+                        "subCategory":"salate",
+                        "instructions":"Iseckati pečurke i propržiti u malo soka iz tegle (oko 15min), dodati šunku i belo meso i prziti još 5min. Na kraju sjediniti sa pavlakom.",
+                        "image":"../images/salataSaPecur.jpg",
+                        "ingredient":[
+                            {"quantity":"700","unit":"g","item":"mariniranih šampinjona"},
+                            {"quantity":"250","unit":"g","item":"šunke"},
+                            {"quantity":"250","unit":"g","item":"belog mesa"},
+                            {"quantity":"800","unit":"g","item":"pavlake"}                         
+                            
+                        ]
+                       },
+                        {
+                            "id":"108",
+                            "name":"Listići",
+                            "description":"Prelepo przeno pecivo za super doručak i večeru!",
+                            "category":"slanisi",
+                            "subCategory":"testo",
+                            "instructions":"Zamesiti mekano testo od svih sastojaka i ostaviti da naraste. Nadošlo testo natreti i ponoviti postupak još jednom. Razvući testo, seći na romboide i probušiti nožem po sredini. Ređati ih na pobrašnjen pleh i pokriti krpom, sačekati 10min pa pržiti ",
+                            "image":"../images/listici.jpg",
+                            "ingredient":[
+                                {"quantity":"500","unit":"ml","item":"mleka"},
+                                {"quantity":"150","unit":"ml","item":"vode"},
+                                {"quantity":"3","unit":"kom","item":"jaja"},
+                                {"quantity":"150","unit":"ml","item":"ulja"},
+                                {"quantity":"1000","unit":"g","item":"brašna"},
+                                {"quantity":"40","unit":"g","item":"kvasca"},
+                                {"quantity":"1","unit":"kašičica","item":"soli"},
+                                {"quantity":"1","unit":"kašika","item":"šećera"}
+                                
+                            ]
+                           },
+                            {
+                                "id":"109",
+                                "name":"Štapići sa belim vinom",
+                                "description":"Preukusna grickalica kad pocnete da ih jedete, ne mozete da se zaustavite!",
+                                "category":"slanisi",
+                                "subCategory":"testo",
+                                "instructions":"Dobro umešati sve sastojke. Istanjiti testo na 0,5cm debljine i premazati umućenim zumancetom pa dobro posuti makom. Okrenuti testo pa premaati belancetom i susamom. Seći na trake 1cm širine, uvrtati ih pa ređati u pleh i peći 10-15 min na 200C",
+                                "image":"../images/uvrnutiStapici.jpg",
+                                "ingredient":[
+                                    {"quantity":"750","unit":"g","item":"brašna"},
+                                    {"quantity":"50","unit":"g","item":"maka"},
+                                    {"quantity":"50","unit":"g","item":"susama"},
+                                    {"quantity":"250","unit":"ml","item":"belog vina"},
+                                    {"quantity":"250","unit":"ml","item":"ulja"},
+                                    {"quantity":"1.5","unit":"kašičica","item":"soli"},
+                                    {"quantity":"0.5","unit":"kesica","item":"praška za pecivo"}
+                                    
+                                ]
+                               },
+                                {
+                                    "id":"110",
+                                    "name":"Majina projara",
+                                    "description":"Tako mekana i lepa da se topi u ustima!",
+                                    "category":"slanisi",
+                                    "subCategory":"testo",
+                                    "instructions":"Umutiti jaja, dodati jogurt, ulje, brašno sa praškom za pecivo i na kraju izmrvljen sir",
+                                    "image":"../images/majinaProjara.jpg",
+                                    "ingredient":[
+                                        {"quantity":"5","unit":"kom","item":"jaja"},
+                                        {"quantity":"7","unit":"kašika","item":"projinog brašna"},
+                                        {"quantity":"7","unit":"kašika","item":"brašna"},
+                                        {"quantity":"200","unit":"ml","item":"jogurta"},
+                                        {"quantity":"200","unit":"ml","item":"ulja"},
+                                        {"quantity":"500","unit":"g","item":"sira"},
+                                        {"quantity":"0.5","unit":"kašičica","item":"soli"},
+                                        {"quantity":"1","unit":"kesica","item":"praška za pecivo"}
+                                        
+                                    ]
+                                  }
+]}

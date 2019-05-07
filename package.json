@@ -1,0 +1,22 @@
+{
+  "name": "projekatrecepti1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.3",
+    "axios": "^0.18.0",
+    "node-modules": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch db.json",
+    "build":"babel-presets es2015 src -d dist"
+  },
+  "author": "",
+  "license": "ISC", 
+  "description": ""
+}

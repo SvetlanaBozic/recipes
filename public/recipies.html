@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../images/icon1.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Courgette%7CDosis%7COswald%7CUbuntu%7CUbuntu+Condensed%7CWork+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/recipies.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Recepti</title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <div id="logo-title">
+                <h1>Mamini recepti</h1>
+            </div>
+        </a>
+        <div id="favor">
+            <div id="numberArticleDiv">
+                <img src="../images/favorites-icon.png" id="icon-cart" alt="omiljeni">
+                <span id="numberArticle"></span>
+            </div>
+            <div id="favorite-cart">
+                <table id="content-cart">
+                    <thead>
+                        <tr>
+                            <th>Slika</th>
+                            <th>Recept</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <a href="#" id="clear-cart" class="button">Obriši sve</a>
+            </div>
+        </div>
+    </header>
+    <form action="#" id="search">
+        <div id="dishesFilter">
+            <div id="dishes">
+                <select id="filterDishes" name="dishes" class="inp">
+                    <option value="noFilter">Filtriraj (jela):</option>
+                    <option value="slanisi"> Slana jela </option>
+                    <option value="kolaci"> Slatka jela </option>
+                </select>
+            </div>
+            <div id="ingred">
+                <div class="autocomplete">
+                    <input type="text" id="filterIngred"  class="inp" name="ingred" placeholder="Filtriraj po naslovu:">
+                </div>
+            </div>
+            <div>
+            <button type="button" name="btn" class="btnsearch">Pronađi <i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        <div id="btnReset">
+            <button type="reset" class="btnsearch">Obriši <i class="fas fa-backspace"></i></button>
+        </div>
+    </form>
+    <div id="mainDiv2">
+        <main class="mainDiv">
+        </main>
+    </div>
+    <footer>
+        <div id="footerleft">
+            <div class="foot">
+               <h2>Mamini recepti</h2>
+            </div>
+            <div class="footpar">
+                <p>Mamini recepti - sa vama od 2017-te godine. Osmišljen da bude tu za vas, pri svakom koraku pripreme jela
+                    i poslastica. Napravljen kao online sveska recepata, da se ne zaborave i da se prenose dalje. Od srca
+                    vam želimo da ih koristite sa zadovoljstvom svaki dan u vašoj kuhinji.</p>
+                <p>Sva prava zadržana, zabranjeno kopiranje bez saglasnosti.</p>
+            </div>
+        </div>
+        <div id="footerright">
+            <div class="foot">
+                <h3>Kontakt</h3>
+            </div>
+            <div class="footpar">
+                <p>Kontaktirajte nas: mamina.kuhinja@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="../js/main.js" type="module"></script>
+    <script src="../js/recipiesList.js" type="module"></script>
+    <script src="../js/recipe.js" type="module"></script>
+    <script src="../js/app.js" type="module"></script>
+    <script src="../js/search.js" type="module"></script>
+    <script src="../js/autocomplete.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../images/icon1.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Courgette%7CDosis%7COswald%7CUbuntu%7CUbuntu+Condensed%7CWork+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/recipies.css">
+    <link rel="stylesheet" type="text/css" href="../css/recipe.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Recept</title>
+</head>
+
+<body>
+    <header>
+        <a href="./recipies.html">
+            <div id="logo-title">
+                <h1>Mamini recepti</h1>
+            </div>
+        </a>
+        <div id="favor">
+            <div id="numberArticleDiv">
+                <img src="../images/favorites-icon.png" id="icon-cart" alt="omiljeni">
+                <span id="numberArticle"></span>
+            </div>
+            <div id="favorite-cart">
+                <table id="content-cart">
+                    <thead>
+                        <tr>
+                            <th>Slika</th>
+                            <th>Recept</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <a href="#" id="clear-cart" class="button">Obriši sve</a>
+            </div>
+        </div>
+    </header>
+    <main id="recipeDesc">
+    </main>
+    
+    <script type="module" src="../js/recipe.js"></script>
+    <script type="module" src="../js/recipiesList.js"></script>
+</body>
+
+</html>

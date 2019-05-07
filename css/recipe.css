@@ -1,0 +1,114 @@
+.tablefav {
+text-align: right;
+}
+
+.tablefav1 {
+    text-align: left;
+}
+
+.tablefav, .tablefav1{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+#ingDetail {
+    border-collapse: collapse;
+    border-bottom: 2em;
+    margin: auto;
+}
+
+#ingDetail td{
+    padding: .5em;
+   
+    border-bottom: 1px solid rgb(207, 205, 205);
+}
+
+#recipeDesc {
+    width: 100%;
+}
+
+.rec {
+    width: 35%;
+    margin: 2em auto;
+}
+.box-desc div{
+    padding: 1em 1em;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.box-desc h3 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #ad1610;
+}
+
+.big-img img {
+    display: block;
+    width: 100%;
+}
+
+.big-img h2
+{
+    font-family: 'Courgette', cursive;
+    color: #ad1610;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.instr{
+    text-align: justify;
+}
+
+@media screen and (max-width: 400px){
+    body{
+        font-size: 0.6em;
+    }
+    .box-decs h3{
+        font-size: 0.4em;
+    }
+
+    .box-decs .instr{
+        font-size: 0.2em;
+    }
+  
+    .big-img h2{
+        font-size: 1.2em;
+    }
+    #logo-title h1{
+        font-size: 1.2em;
+    }
+    #ingDetail{
+        display: block;
+        width: 100%;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px){
+    body{
+        font-size: 0.8em;
+    }
+   
+    .big-img h2{
+        font-size: 1.2em;
+    }
+    #logo-title h1{
+        font-size: 1.2em;
+    }
+    #ingDetail{
+        display: block;
+        width: 100%;
+        font-size: 10px;
+    }
+}
+
+#returnicon{
+    display: block;
+    position: relative;
+    left: 2em;
+    cursor: pointer;
+}
+
+#returnicon:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}

@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    box-sizing: border-box;
+    color: #545555;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#logo-title {
+     font-family: 'Courgette', cursive;
+     display: inline-block;
+    /* color: rgb(56, 56, 53);*/
+     margin: 1.5em 2em;
+     border: 2px solid #ad1610;
+     padding: 1em;
+     border-radius: 50%;
+}
+
+#logo-title h1{
+    font-family: inherit;
+    color: #ad1610;
+    text-align: center;
+}
+
+#logo-title h2{
+    font-family: inherit;
+    color: #ad1610;
+    text-align: center;
+}
+
+#logo>h1 {
+    font-family: inherit;
+}
+#favor{
+    position: relative;
+}
+#favorite-cart {
+    display: none;
+}
+
+#favor:hover #favorite-cart{
+    display: block;
+    position: absolute;
+    right: 0;
+    top:100%;
+    z-index: 1;
+    background-color: white;
+}
+
+#icon-cart{
+    padding: 2em 3.5em;
+
+}
+
+#numberArticleDiv{
+    position: relative;
+}
+
+#numberArticle{
+    display: none;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    background: #c0120c;
+    color: #fff;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    bottom: 28%;
+    left: 28%;
+}
+
+#content-cart{
+    border-collapse: collapse;
+    border-bottom: 2em;
+}
+
+#content-cart th, #content-cart td{
+    padding: 10px 25px;
+    text-align: center;
+    border-bottom: 1px solid rgb(207, 205, 205);
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.button {
+    margin: .8em auto;
+    width: 45%;
+    display: block;
+    padding: 0 30px;
+    color: #555;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background: linear-gradient(to right, #9c9897, #f3efef);
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+  }
+td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #E1E1E1;
+}
+.remove {
+    background-color: #c0120c;
+    border-radius: 50%;
+    padding: 3px 9px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#search{
+    background-image: url('../images/cookies1.jpg');
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+#dishesFilter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+
+.inp{
+    width: 100%;
+}
+
+#dishes{
+    padding-right: 20px;
+    margin-bottom: 8px;
+}
+
+#filterDishes,#filterIngred {
+    display: flex;
+    padding: .6em .8em;
+    border-radius: 36px;
+    outline: none;
+    font-family: 'Courgette', cursive;
+}
+
+#filterIngred{
+    width: 100%;
+}
+
+#ingred{
+    margin-bottom: 8px;
+}
+
+#filterIngred{
+    padding: .6em 4em .6em 1em;
+}
+
+.btnsearch{
+display: block;
+padding: .6em 1.5em;
+border-radius: 20px;
+letter-spacing: 1.5px;
+background: linear-gradient(to right, #9c9897, #f3efef);
+font-family: 'Courgette', cursive;
+outline: none;
+
+}
+
+.btnsearch:active{
+box-shadow: 0 5px #666;
+transform: translateY(2px);
+}
+
+.mainDiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 1.5em auto;
+    margin-bottom: 3.5em;
+    justify-content: space-around;
+}
+
+.recipe1{
+    width: 250px;
+    border: 2px solid #e1e1e1;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    transition: transform .5s;
+}
+
+.recipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipe1:hover{
+    transform: scale(1.08);
+}
+
+.box-img{
+    width: 100%;
+}
+.box-img img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.box-body{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.box-body h2{
+    color:#ad1610;
+    text-align: center;
+    padding-bottom: .6em;
+    cursor: pointer;
+    font-family: 'Courgette', cursive;
+}
+
+.box-body p{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1em;
+}
+
+.add-to-favor{
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: 300;
+    background: linear-gradient(to right, #440402, #c0120c);
+    color: white;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.add-to-favor:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+
+.searchno{
+    color: #ad1610;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-style: italic;
+}
+
+@media screen and (max-width: 400px){
+    .footpar p{
+        font-size: 10px;
+     }
+
+    .big-img h2{
+        font-size: 1.2em;
+    }
+    
+    #logo-title h1{
+        font-size: 1.1em;
+    }
+
+    .foot h2, .foot h3{
+        font-size: 14px;
+     }
+
+     .box-body p{
+        font-size: 12px;
+    }
+    .box-body h2{
+        font-size: 16px;
+    }
+
+    .add-to-favor{
+        font-size: 12px;
+    }
+
+    .btnsearch{
+        font-size: 11px;
+    }
+
+    #filterDishes, #filterIngred{
+        font-size: 11px;
+    }
+
+    .autocomplete{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 400px){
+    #filterDishes, #filterIngred{
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px){
+    .footpar p{
+        font-size: 12px;
+     }
+
+     .box-body p{
+         font-size: 14px;
+     }
+
+     .foot h2, foot h3{
+        font-size: 18px;
+     }
+
+    .big-img h2{
+        font-size: 1.2em;
+    }
+    #logo-title h1{
+        font-size: 1.2em;
+    }
+    
+    .btnsearch{
+        font-size: 12px;
+    }
+
+    #filterDishes, #filterIngred{
+        font-size: 12px;
+    }
+
+    .autocomplete{
+        margin-left: 0;
+    }
+}
+
